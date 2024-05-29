@@ -50,7 +50,7 @@ graph TD;
 ```
 ### 4.2 SequenceDiagram
 
-```
+```mermaid
     participant User
     participant Browser
     participant HTML
