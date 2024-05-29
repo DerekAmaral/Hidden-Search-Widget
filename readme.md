@@ -50,7 +50,7 @@ graph TD;
 ```
 ### 4.2 SequenceDiagram
 
-```mermaid
+sequenceDiagram
     participant User
     participant Browser
     participant HTML
@@ -66,4 +66,4 @@ graph TD;
     CSS->>Input: Expand Width
     CSS->>Button: Move Button
     JavaScript->>Input: Focus Input
-```
+
