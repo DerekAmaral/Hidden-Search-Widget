@@ -51,13 +51,11 @@ graph TD;
 ### 4.2 SequenceDiagram
 
 ```
-sequenceDiagram
     participant User
     participant Browser
     participant HTML
     participant CSS
     participant JavaScript
-
     User->>Browser: Load Page
     Browser->>HTML: Fetch HTML
     HTML->>CSS: Apply CSS
