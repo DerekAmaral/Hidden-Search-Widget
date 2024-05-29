@@ -50,13 +50,13 @@ graph TD;
 ```
 ### 4.2 SequenceDiagram
 
-```mermaid
+```
+sequenceDiagram
     participant User
     participant Browser
     participant HTML
     participant CSS
     participant JavaScript
-
     User->>Browser: Load Page
     Browser->>HTML: Fetch HTML
     HTML->>CSS: Apply CSS
@@ -67,5 +67,6 @@ graph TD;
     CSS->>Button: Move Button
     JavaScript->>Input: Focus Input
 ```
+
    
 
